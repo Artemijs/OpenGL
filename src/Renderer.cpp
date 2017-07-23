@@ -2,10 +2,14 @@
 #include <GL/glew.h>
 #include <iostream>
 Renderer::Renderer(){}
+
 void Renderer::prepare(){
     glClearColor(0.1, 0.1, 0, 1);
     glClear(GL_COLOR_BUFFER_BIT);
 }
+/*
+    binds thee provided veertex array and calls glDraw
+*/
 void Renderer::render(RawModel* model){
     //std::cout<<"rednering models id "<<model->getVaoId()<<"\n";
     //std::cout<<"rednering models vcount "<<model->getVertexCount()<<"\n";

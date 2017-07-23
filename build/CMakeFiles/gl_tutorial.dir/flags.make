@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/SDL2 -I/home/artemis/gltutorial/include 
+CXX_INCLUDES = -I/usr/include/SDL2 -I/home/artemis/OpenGL/include 
 

@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/artemis/gltutorial/src/DisplayManager.cpp" "/home/artemis/gltutorial/build/CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.o"
-  "/home/artemis/gltutorial/src/Loader.cpp" "/home/artemis/gltutorial/build/CMakeFiles/gl_tutorial.dir/src/Loader.cpp.o"
-  "/home/artemis/gltutorial/src/RawModel.cpp" "/home/artemis/gltutorial/build/CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.o"
-  "/home/artemis/gltutorial/src/Renderer.cpp" "/home/artemis/gltutorial/build/CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.o"
-  "/home/artemis/gltutorial/src/ShaderProgram.cpp" "/home/artemis/gltutorial/build/CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.o"
-  "/home/artemis/gltutorial/src/main.cpp" "/home/artemis/gltutorial/build/CMakeFiles/gl_tutorial.dir/src/main.cpp.o"
+  "/home/artemis/OpenGL/src/DisplayManager.cpp" "/home/artemis/OpenGL/build/CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.o"
+  "/home/artemis/OpenGL/src/Loader.cpp" "/home/artemis/OpenGL/build/CMakeFiles/gl_tutorial.dir/src/Loader.cpp.o"
+  "/home/artemis/OpenGL/src/RawModel.cpp" "/home/artemis/OpenGL/build/CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.o"
+  "/home/artemis/OpenGL/src/Renderer.cpp" "/home/artemis/OpenGL/build/CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.o"
+  "/home/artemis/OpenGL/src/ShaderProgram.cpp" "/home/artemis/OpenGL/build/CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.o"
+  "/home/artemis/OpenGL/src/main.cpp" "/home/artemis/OpenGL/build/CMakeFiles/gl_tutorial.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

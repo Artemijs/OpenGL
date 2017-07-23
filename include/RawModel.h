@@ -1,5 +1,8 @@
 #ifndef RAWMODEL_H
 #define RAWMODEL_H
+/*
+    holds vao id and the vertex count
+*/
 class RawModel{
 private:
     int m_vaoID;

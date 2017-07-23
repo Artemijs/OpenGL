@@ -1,0 +1,5 @@
+#version 120
+//vert
+void main(void){
+    gl_Position=ftransform();
+}

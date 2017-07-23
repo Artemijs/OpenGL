@@ -1,0 +1,3 @@
+/home/artemis/OpenGL/sample_code/s2/build/CMakeFiles/edit_cache.dir
+/home/artemis/OpenGL/sample_code/s2/build/CMakeFiles/rebuild_cache.dir
+/home/artemis/OpenGL/sample_code/s2/build/CMakeFiles/gl_tutorial.dir

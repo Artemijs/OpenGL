@@ -1,3 +1,3 @@
-/home/artemis/gltutorial/build/CMakeFiles/edit_cache.dir
-/home/artemis/gltutorial/build/CMakeFiles/rebuild_cache.dir
-/home/artemis/gltutorial/build/CMakeFiles/gl_tutorial.dir
+/home/artemis/OpenGL/build/CMakeFiles/edit_cache.dir
+/home/artemis/OpenGL/build/CMakeFiles/rebuild_cache.dir
+/home/artemis/OpenGL/build/CMakeFiles/gl_tutorial.dir

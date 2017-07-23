@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/artemis/gltutorial
+CMAKE_SOURCE_DIR = /home/artemis/OpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/artemis/gltutorial/build
+CMAKE_BINARY_DIR = /home/artemis/OpenGL/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gl_tutorial.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/gl_tutorial.dir/flags.make
 
 CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.o: CMakeFiles/gl_tutorial.dir/flags.make
 CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.o: ../src/DisplayManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artemis/gltutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.o -c /home/artemis/gltutorial/src/DisplayManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artemis/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.o -c /home/artemis/OpenGL/src/DisplayManager.cpp
 
 CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artemis/gltutorial/src/DisplayManager.cpp > CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artemis/OpenGL/src/DisplayManager.cpp > CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.i
 
 CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artemis/gltutorial/src/DisplayManager.cpp -o CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artemis/OpenGL/src/DisplayManager.cpp -o CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.s
 
 CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/gl_tutorial.dir/src/DisplayManager.cpp.o.provides.build: CMakeFiles/g
 
 CMakeFiles/gl_tutorial.dir/src/Loader.cpp.o: CMakeFiles/gl_tutorial.dir/flags.make
 CMakeFiles/gl_tutorial.dir/src/Loader.cpp.o: ../src/Loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artemis/gltutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gl_tutorial.dir/src/Loader.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gl_tutorial.dir/src/Loader.cpp.o -c /home/artemis/gltutorial/src/Loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artemis/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gl_tutorial.dir/src/Loader.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gl_tutorial.dir/src/Loader.cpp.o -c /home/artemis/OpenGL/src/Loader.cpp
 
 CMakeFiles/gl_tutorial.dir/src/Loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl_tutorial.dir/src/Loader.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artemis/gltutorial/src/Loader.cpp > CMakeFiles/gl_tutorial.dir/src/Loader.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artemis/OpenGL/src/Loader.cpp > CMakeFiles/gl_tutorial.dir/src/Loader.cpp.i
 
 CMakeFiles/gl_tutorial.dir/src/Loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl_tutorial.dir/src/Loader.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artemis/gltutorial/src/Loader.cpp -o CMakeFiles/gl_tutorial.dir/src/Loader.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artemis/OpenGL/src/Loader.cpp -o CMakeFiles/gl_tutorial.dir/src/Loader.cpp.s
 
 CMakeFiles/gl_tutorial.dir/src/Loader.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/gl_tutorial.dir/src/Loader.cpp.o.provides.build: CMakeFiles/gl_tutori
 
 CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.o: CMakeFiles/gl_tutorial.dir/flags.make
 CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.o: ../src/RawModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artemis/gltutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.o -c /home/artemis/gltutorial/src/RawModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artemis/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.o -c /home/artemis/OpenGL/src/RawModel.cpp
 
 CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artemis/gltutorial/src/RawModel.cpp > CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artemis/OpenGL/src/RawModel.cpp > CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.i
 
 CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artemis/gltutorial/src/RawModel.cpp -o CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artemis/OpenGL/src/RawModel.cpp -o CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.s
 
 CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/gl_tutorial.dir/src/RawModel.cpp.o.provides.build: CMakeFiles/gl_tuto
 
 CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.o: CMakeFiles/gl_tutorial.dir/flags.make
 CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artemis/gltutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.o -c /home/artemis/gltutorial/src/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artemis/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.o -c /home/artemis/OpenGL/src/Renderer.cpp
 
 CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artemis/gltutorial/src/Renderer.cpp > CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artemis/OpenGL/src/Renderer.cpp > CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.i
 
 CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artemis/gltutorial/src/Renderer.cpp -o CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artemis/OpenGL/src/Renderer.cpp -o CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.s
 
 CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/gl_tutorial.dir/src/Renderer.cpp.o.provides.build: CMakeFiles/gl_tuto
 
 CMakeFiles/gl_tutorial.dir/src/main.cpp.o: CMakeFiles/gl_tutorial.dir/flags.make
 CMakeFiles/gl_tutorial.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artemis/gltutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gl_tutorial.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gl_tutorial.dir/src/main.cpp.o -c /home/artemis/gltutorial/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artemis/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gl_tutorial.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gl_tutorial.dir/src/main.cpp.o -c /home/artemis/OpenGL/src/main.cpp
 
 CMakeFiles/gl_tutorial.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl_tutorial.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artemis/gltutorial/src/main.cpp > CMakeFiles/gl_tutorial.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artemis/OpenGL/src/main.cpp > CMakeFiles/gl_tutorial.dir/src/main.cpp.i
 
 CMakeFiles/gl_tutorial.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl_tutorial.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artemis/gltutorial/src/main.cpp -o CMakeFiles/gl_tutorial.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artemis/OpenGL/src/main.cpp -o CMakeFiles/gl_tutorial.dir/src/main.cpp.s
 
 CMakeFiles/gl_tutorial.dir/src/main.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/gl_tutorial.dir/src/main.cpp.o.provides.build: CMakeFiles/gl_tutorial
 
 CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.o: CMakeFiles/gl_tutorial.dir/flags.make
 CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.o: ../src/ShaderProgram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artemis/gltutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.o -c /home/artemis/gltutorial/src/ShaderProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artemis/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.o -c /home/artemis/OpenGL/src/ShaderProgram.cpp
 
 CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artemis/gltutorial/src/ShaderProgram.cpp > CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artemis/OpenGL/src/ShaderProgram.cpp > CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.i
 
 CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artemis/gltutorial/src/ShaderProgram.cpp -o CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artemis/OpenGL/src/ShaderProgram.cpp -o CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.s
 
 CMakeFiles/gl_tutorial.dir/src/ShaderProgram.cpp.o.requires:
 
@@ -223,8 +223,9 @@ gl_tutorial: CMakeFiles/gl_tutorial.dir/build.make
 gl_tutorial: /usr/lib/i386-linux-gnu/libGLU.so
 gl_tutorial: /usr/lib/i386-linux-gnu/libGL.so
 gl_tutorial: /usr/lib/i386-linux-gnu/libGLEW.so
+gl_tutorial: /usr/lib/i386-linux-gnu/libSDL2_image.so
 gl_tutorial: CMakeFiles/gl_tutorial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artemis/gltutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable gl_tutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artemis/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable gl_tutorial"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gl_tutorial.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -246,6 +247,6 @@ CMakeFiles/gl_tutorial.dir/clean:
 .PHONY : CMakeFiles/gl_tutorial.dir/clean
 
 CMakeFiles/gl_tutorial.dir/depend:
-	cd /home/artemis/gltutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/artemis/gltutorial /home/artemis/gltutorial /home/artemis/gltutorial/build /home/artemis/gltutorial/build /home/artemis/gltutorial/build/CMakeFiles/gl_tutorial.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/artemis/OpenGL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/artemis/OpenGL /home/artemis/OpenGL /home/artemis/OpenGL/build /home/artemis/OpenGL/build /home/artemis/OpenGL/build/CMakeFiles/gl_tutorial.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gl_tutorial.dir/depend
 

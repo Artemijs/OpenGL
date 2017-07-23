@@ -1,4 +1,4 @@
-// GLEW
+/*// GLEW
 #define GLEW_STATIC
 #include <GL/glew.h>
 // GLFW
@@ -123,7 +123,7 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
     // closing the application
     if(key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
     	glfwSetWindowShouldClose(window, GL_TRUE);
-}
+}*/
 /*std::string readFile(const char *filePath){
 	std::string content;
 	std::ifstream fileStream(filePath, std::ios::in);
